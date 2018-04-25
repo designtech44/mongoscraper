@@ -1,0 +1,42 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 80px;
+      background-image: url("../img/newsprint_bg.jpg");
+      background-position: center;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  img {
+  margin: 0 auto;
+  width: 100%;
+  }
+  
+  h1, h2, h3, h4 {
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  .alert h4{
+    color: #720707;
+  }
+  
+  .alert-warning{
+    background-color: #ffffff;
+    border: solid 1px #720707;
+  }
+  
+  .caption{
+    text-align: center;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+  .panel {
+    border-radius: 0;
+    box-shadow: 3px 3px 20px lightslategrey;
+  }

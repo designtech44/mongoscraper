@@ -1,0 +1,32 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "app that scrapes articels from news feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designtech44/mongoscraper.git"
+  },
+  "keywords": [
+    "scrape",
+    "articels"
+  ],
+  "author": "Dean Dyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designtech44/mongoscraper/issues"
+  },
+  "homepage": "https://github.com/designtech44/mongoscraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.16",
+    "request": "^2.85.0"
+  }
+}
